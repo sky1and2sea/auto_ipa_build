@@ -9,8 +9,7 @@ Before use the shell，you need install Xcodeproj, ruby and python on the macOS.
 
     $ [sudo] gem install xcodeproj
 
-see more from [Xcodeproj]
-[xcodeproj]: https://github.com/cocoapods/xcodeproj
+see more from [Xcodeproj][xcodeproj]
 
 Example:
 
@@ -38,4 +37,7 @@ password of p12 file
 
 ### -l
 The Absolute path or Absolute path of mobileprovision file
+
+[xcodeproj]: https://github.com/cocoapods/xcodeproj
+
 
