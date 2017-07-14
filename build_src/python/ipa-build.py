@@ -57,7 +57,6 @@ if __name__ == '__main__':
             projectName, projectName, params.sdk, params.configuration,teamIdentifier,provisioningProfile)        
         #buildCommand = 'xcodebuild -project platforms/ios/%s.xcodeproj -scheme %s -sdk %s archive -configuration %s -destination generic/platform=iOS -archivePath appBuild/archive.xcarchive DEVELOPMENT_TEAM="%s" PROVISIONING_PROFILE="%s" CODE_SIGN_IDENTITY="iPhone Distribution" CODE_SIGN_ENTITLEMENTS="push.entitlements"' % (
             #params.xcworkspace, params.scheme, params.sdk, params.configuration,teamIdentifier,provisioningProfile)
-        #exportCommand = 'xcodebuild -exportArchive -archivePath appBuild/myapp.xcarchive -exportPath appBuild -exportOptionsPlist p.list PROVISIONING_PROFILE="321" CODE_SIGN_IDENTITY="Phone Distribution: HAND Enterprise Solutions CO., LTD. (63M9FZGR9Q)"'
         exportCommand = 'xcodebuild -exportArchive -archivePath appBuild/archive.xcarchive -exportPath %s -exportOptionsPlist build_src/exportOptionsPlist.plist PROVISIONING_PROFILE="%s"' % (
             ipaPath,provisioningProfile)
 		

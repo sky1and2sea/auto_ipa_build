@@ -3,7 +3,7 @@
 
 
 require 'xcodeproj'
-#project_path = '/Users/wuxiaocheng/Documents/mobile/IOS_HAND/meike/huilianyi-v2/platforms/ios/美克自管家.xcodeproj'
+#project_path = '/Users/username/Documents/mobile/meike/project_path/platforms/ios/xxxx.xcodeproj'
 project_path = ARGV[0]
 hasPush = ARGV[1]
 
