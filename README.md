@@ -1,7 +1,7 @@
 # auto_ipa_build
 A shell use CLI to build a ionic project to a enterprise ipa file
 
-E-mail: sky1and2sea@hotmail.com
+E-mail: sky1and2sea@aliyun.com
 
 使用命令行从一个ionic项目导出为一个企业证书的ipa包的shell脚本
 
